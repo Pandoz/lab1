@@ -11,7 +11,7 @@ bool check(double x, double y)//Проверка
 	return 0;
 }
 
-Complex addComplex(const Complex &x, const Complex &y)
+void pluss(Complex N1, Complex N2)//Операция сложения
 {
 	Complex qwert;
 	qwert.re = x.re + y.re;
@@ -19,7 +19,7 @@ Complex addComplex(const Complex &x, const Complex &y)
 	return qwert;
 }
 
-Complex subtractComplex(const Complex &x, const Complex &y)
+void substruct(Complex N1, Complex N2)//Операция вычетания
 {
 	Complex qwert;
 	qwert.re = x.re - y.re;
@@ -27,7 +27,7 @@ Complex subtractComplex(const Complex &x, const Complex &y)
 	return qwert;
 }
 
-Complex multiplyComplex(const Complex &x, const Complex &y)
+void multiplication(Complex N1, Complex N2)//Операция умножения
 {
 	Complex qwert;
 	qwert.re = x.re * y.re - x.im * y.im;
@@ -35,7 +35,7 @@ Complex multiplyComplex(const Complex &x, const Complex &y)
 	return qwert;
 }
 
-Complex divideComplex(const Complex &x, const Complex &y)
+void devide(Complex N1, Complex N2)//Операция деления
 {
 	Complex qwert;
 	answer.re = (x.re * y.re + x.im * y.im) / (y.re * y.re + y.im * y.im);
