@@ -38,6 +38,6 @@ void multiplication(Complex N1, Complex N2)//Операция умножения
 void devide(Complex N1, Complex N2)//Операция деления
 {
 	Complex qwert;
-	answer.re = (x.re * y.re + x.im * y.im) / (y.re * y.re + y.im * y.im);
+	qwert.re = (x.re * y.re + x.im * y.im) / (y.re * y.re + y.im * y.im);
 	qwert.im = (x.im * y.re - x.re * y.im) / (y.re * y.re + y.im * y.im);
 	return qwert;
