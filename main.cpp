@@ -25,20 +25,16 @@ int main()
 	switch (oper)
 	{
 	case '+':
-		pluss(N1, N2);	
-		cout << "Сумма: " << qwert.re << " + (" << qwert.im << ")i\n";
+		pluss(N1, N2);
 		break;
 	case '-':
 		substruct(N1, N2);
-		cout << "Разность: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '*':
 		multiplication(N1, N2);
-		cout << "Произведение: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '/':
 		devide(N1, N2);
-		cout << "Частное: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 
 	default:
