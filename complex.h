@@ -1,16 +1,15 @@
-#ifndef COMPLEX_H
-#define COMPLEX_H
+#ifndef Complex_h
+#define Complex_h
 
 struct Complex
 {
-	double re = 0.0;
-	double im = 0.0;
+	double re;
+	double im;
 };
-
-void enterComplexNumber();
-Complex addComplex(const Complex &x, const Complex &y);
-Complex subtractComplex(const Complex &x, const Complex &y);
-Complex multiplyComplex(const Complex &x, const Complex &y);
-Complex divideComplex(const Complex &x, const Complex &y);
+bool check(double x, double y);
+void pluss(Complex N1, Complex N2);
+void substruct(Complex N1, Complex N2);
+void multiplication(Complex N1, Complex N2);
+void devide(Complex N1, Complex N2);
 
 #endif
