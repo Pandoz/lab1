@@ -5,18 +5,20 @@ using namespace std;
 int main()
 {
 	system("chcp 1251");
-	Complex x{ };
-	Complex y{ };
+	Complex N1{ };
+	Complex N2{ };
 	char oper{ };
 
 	cout << "Введите первое комплексное число: ";
 	cin >> x.re >> x.im;
 	cout << "Введите второе комплексное число: ";
 	cin >> y.re >> y.im;
-	do
-	{
-		cout << "Введите символ операции над числами: ";
-		cin >> oper;
+	}
+	Complex N1 = { x.re, x.im }
+	Complex N2 = { y.re, y.im };
+	
+	cout << "Введите символ операции над числами: ";
+	cin >> oper;
 
 	} while (oper != '+' && oper != '-' && oper != '*' && oper != '/');
 
