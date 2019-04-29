@@ -20,13 +20,7 @@ int main()
 	cout << "Введите символ операции над числами: ";
 	cin >> oper;
 
-	} while (oper != '+' && oper != '-' && oper != '*' && oper != '/');
-
-	Complex addiction = addComplex(x, y);
-	Complex subtraction = subtractComplex(x, y);
-	Complex multiplication = multiplyComplex(x, y);
-	Complex division = divideComplex(x, y);
-
+	}
 	switch (oper)
 	{
 	case '+':
