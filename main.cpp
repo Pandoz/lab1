@@ -26,19 +26,19 @@ int main()
 	{
 	case '+':
 		pluss(N1, N2);	
-		cout << qwert.re << " + (" << qwert.im << ")i\n";
+		cout << "Сумма: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '-':
 		substruct(N1, N2);
-		cout << qwert.re << " + (" << qwert.im << ")i\n";
+		cout << "Разность: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '*':
 		multiplication(N1, N2);
-		cout << qwert.re << " + (" << qwert.im << ")i\n";
+		cout << "Произведение: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '/':
 		devide(N1, N2);
-		cout << qwert.re << " + (" << qwert.im << ")i\n";
+		cout << "Частное: " << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 
 	default:
