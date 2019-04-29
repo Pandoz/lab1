@@ -46,17 +46,17 @@ int main()
 	{
 		int f, max = -1;
 		int maxIndex;
-		file >> f;
+		file >> f; //считываемм значения с файла комлекс.тхт
 		int n;
 
-		Complex *p = new Complex[n];
+		Complex *p = new Complex[n]; //заполняем массив
 		for (int i = 0; i < n; i++)
 		{
 			file >> f;
-			p[i].re = f;
-			file >> f;
-			p[i].im = f;
-			cout << i + 1 << " число: " << p[i].re << " + (" << p[i].im << ")i\n";
+			p[i].re = f; //два числа из файла         //первое число в файле количество комплекс чисел
+			file >> f;                        //а дальше числа которые идут в сам массив
+			p[i].im = f; // два числа из файла
+			cout << i + 1 << " число: " << p[i].re << " + (" << p[i].im << ")i\n"; //результат их
 
 			if (sqrt(p[i].re * p[i].re + p[i].im * p[i].im) > max)
 			{
@@ -68,4 +68,5 @@ int main()
 		cout << "Модуль равен: " << max << '\n';
 	}
 	file.close();
-	return 0;
+	return 0; 
+
