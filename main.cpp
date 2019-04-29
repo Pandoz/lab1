@@ -26,19 +26,19 @@ int main()
 	{
 	case '+':
 		pluss(N1, N2);	
-		cout << "Сумма: " << addiction.re << " + (" << addiction.im << ")i\n";
+		cout << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '-':
 		substruct(N1, N2);
-		cout << "Разность: " << subtraction.re << " + (" << subtraction.im << ")i\n";
+		cout << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '*':
 		multiplication(N1, N2);
-		cout << "Произведение: " << multiplication.re << " + (" << multiplication.im << ")i\n";
+		cout << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 	case '/':
 		devide(N1, N2);
-		cout << "Частное: " << division.re << " + (" << division.im << ")i\n";
+		cout << qwert.re << " + (" << qwert.im << ")i\n";
 		break;
 
 	default:
