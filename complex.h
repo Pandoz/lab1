@@ -5,7 +5,7 @@ struct Complex
 {
 	double re;
 	double im;
-};
+}
 bool check(double x, double y);
 void pluss(Complex N1, Complex N2);
 void substruct(Complex N1, Complex N2);
