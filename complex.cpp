@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Complex.h"
 
-bool check(double x, double y)//Проверка
+bool check(double x, double y)v //Проверка
 {
 	if (x > 1000 || x < -1000 || y > 1000 || y < -1000)
 	{
