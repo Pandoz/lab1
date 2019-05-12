@@ -20,7 +20,7 @@ void substruct(Complex N1, Complex N2)//Операция вычетания
 
 void multiplication(Complex N1, Complex N2)//Операция умножения
 {
-	Complex qwert;
+	Complex a;
 	a.re = x.re * y.re - x.im * y.im;
 	a.im = x.re * y.im + x.im * y.re;
 	cout << a.re << " + (" << a.im << ")i\n";
