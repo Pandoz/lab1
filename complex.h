@@ -1,14 +1,14 @@
 #ifndef Complex_h
 #define Complex_h
 
-struct Complex //объявляем структуру с переменными двойной точности
+struct chislo //объявляем структуру с переменными двойной точности
 {
-	double re;
-	double im;
+	double re; //первое значение числа
+	double im; // второе значение числа
 } // объявление функций
-void pluss(Complex N1, Complex N2); //сложение
-void substruct(Complex N1, Complex N2); //вычитание
-void multiplication(Complex N1, Complex N2); //умножение
-void devide(Complex N1, Complex N2); //деление
+void plus(chislo N1, chislo N2); //сложение
+void minus(chislo N1,chislo N2); //вычитание
+void ymnoz(chislo N1, chislo N2); //умножение
+void delen(chislo N1, chislo N2); //деление
 
 #endif
