@@ -1,11 +1,11 @@
 #ifndef Complex_h
 #define Complex_h
 
-struct Complex
+struct Complex //объявляем структуру с переменными двойной точности
 {
 	double re;
 	double im;
-} //файл с объявлениями функций
+} // объявление функций
 void pluss(Complex N1, Complex N2); //сложение
 void substruct(Complex N1, Complex N2); //вычитание
 void multiplication(Complex N1, Complex N2); //умножение
