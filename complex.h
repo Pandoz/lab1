@@ -1,6 +1,6 @@
 #ifndef Complex_h
 #define Complex_h
-
+bool (double x, double y); //используем для хранения результатов логических выражений чисел x и y
 struct chislo //объявляем структуру с переменными двойной точности
 {
 	double re; //первое значение числа
