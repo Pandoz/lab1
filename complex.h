@@ -5,11 +5,10 @@ struct Complex
 {
 	double re;
 	double im;
-}
-bool check(double x, double y);
-void pluss(Complex N1, Complex N2);
-void substruct(Complex N1, Complex N2);
-void multiplication(Complex N1, Complex N2);
-void devide(Complex N1, Complex N2);
+} //файл с объявлениями функций
+void pluss(Complex N1, Complex N2); //сложение
+void substruct(Complex N1, Complex N2); //вычитание
+void multiplication(Complex N1, Complex N2); //умножение
+void devide(Complex N1, Complex N2); //деление
 
 #endif
