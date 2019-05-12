@@ -1,15 +1,6 @@
 #include <iostream>
 #include "Complex.h"
 
-bool check(double x, double y)v //Проверка
-{
-	if (x > 1000 || x < -1000 || y > 1000 || y < -1000)
-	{
-		cout << "Вы ввели неверное число, попробуйте еще раз\n";
-		return 1;
-	}
-	return 0;
-}
 
 void pluss(Complex N1, Complex N2)//Операция сложения
 {
