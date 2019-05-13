@@ -42,7 +42,7 @@ int main()
 	ifstream file;
 	file.open("complex.txt"); //открываем файл
 	{
-		int f, max = -1;
+		int f, max;
 		int maxIndex;
 		file >> f; //считываемм значения с файла комлекс.тхт
 		int n;
