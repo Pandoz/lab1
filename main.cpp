@@ -4,8 +4,6 @@
 using namespace std;
 int main()
 {
-	chislo N1{ }; 
-	chislo N2{ };
 	char oper;
 	
 	cout << "Введите первое комплексное число: ";
