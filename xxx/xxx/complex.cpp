@@ -1,18 +1,17 @@
 #include <iostream>
 #include "Complex.h"
 using namespace std;
+//С„Р°Р№Р» СЃ СЂРµР°Р»РёР·Р°С†РёСЏРјРё С„СѓРЅРєС†РёР№
 
-//файл с реализациями функций
-
-void plus(chislo N1, chislo N2)//Операция сложения между двумя структурами
+void plus(chislo N1, chislo N2)//РћРїРµСЂР°С†РёСЏ СЃР»РѕР¶РµРЅРёСЏ РјРµР¶РґСѓ РґРІСѓРјСЏ СЃС‚СЂСѓРєС‚СѓСЂР°РјРё
 {
-	chislo a; //cоздаем новую струкртуру, в которой производим все вычисления и выводим результат
-	a.re = x.re + y.re; //первую часть числа
-	a.im = x.im + y.im; //вторую часть числа
-	cout << a.re << " + (" << a.im << ")i\n"; //вывод результата
+	chislo a; //cРѕР·РґР°РµРј РЅРѕРІСѓСЋ СЃС‚СЂСѓРєСЂС‚СѓСЂСѓ, РІ РєРѕС‚РѕСЂРѕР№ РїСЂРѕРёР·РІРѕРґРёРј РІСЃРµ РІС‹С‡РёСЃР»РµРЅРёСЏ Рё РІС‹РІРѕРґРёРј СЂРµР·СѓР»СЊС‚Р°С‚
+	a.re = x.re + y.re; //РїРµСЂРІСѓСЋ С‡Р°СЃС‚СЊ С‡РёСЃР»Р°
+	a.im = x.im + y.im; //РІС‚РѕСЂСѓСЋ С‡Р°СЃС‚СЊ С‡РёСЃР»Р°
+	cout << a.re << " + (" << a.im << ")i\n"; //РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
 }
 
-void minus(chislo N1, chislo N2)//Операция вычетания
+void minus(chislo N1, chislo N2)//РћРїРµСЂР°С†РёСЏ РІС‹С‡РµС‚Р°РЅРёСЏ
 {
 	chislo a;
 	a.re = x.re - y.re;
@@ -20,7 +19,7 @@ void minus(chislo N1, chislo N2)//Операция вычетания
 	cout << a.re << " + (" << a.im << ")i\n";
 }
 
-void ymnoz(chislo N1, chislo N2)//Операция умножения
+void ymnoz(chislo N1, chislo N2)//РћРїРµСЂР°С†РёСЏ СѓРјРЅРѕР¶РµРЅРёСЏ
 {
 	chislo a;
 	a.re = x.re * y.re - x.im * y.im;
@@ -28,7 +27,7 @@ void ymnoz(chislo N1, chislo N2)//Операция умножения
 	cout << a.re << " + (" << a.im << ")i\n";
 }
 
-void delen(chislo N1, chislo N2)//Операция деления
+void delen(chislo N1, chislo N2)//РћРїРµСЂР°С†РёСЏ РґРµР»РµРЅРёСЏ
 {
 	chislo a;
 	a.re = (x.re * y.re + x.im * y.im) / (y.re * y.re + y.im * y.im);
