@@ -6,7 +6,7 @@ int main()
 {
 	chislo N1{ }; 
 	chislo N2{ };
-	char oper{ };
+	char oper;
 	
 	cout << "Введите первое комплексное число: ";
 	cin >> x.re >> x.im; //вводим оба значения первого числа
